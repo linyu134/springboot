@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class indexController {
 
-    //跳转到index界面
+    //跳转到index界面...
     @RequestMapping("/index")
     public String index(Model model) {
         
@@ -15,7 +15,7 @@ public class indexController {
         return "index";
     }
     
-    //跳转到login界面
+    //跳转到login界面...
     @RequestMapping("/login")
     public String login() {
         return "redirect:login";
